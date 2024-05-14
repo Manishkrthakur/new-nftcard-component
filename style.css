@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    padding: 1.25rem;
+}
+
+.container{
+    /* width: 375px; */
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.25rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.equl{
+    width: 100%;
+    border-radius: 1rem;
+}
+.container h2{
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 0.5rem 0.5rem 0;
+    font-weight: 700;
+  
+}
+
+.container h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+p,li{
+    color:  hsl(215, 51%, 70%);
+    font-weight: 300;
+   
+}
+ul{
+     list-style: none;
+}
+.container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid  hsl(215, 32%, 27%);
+
+}
+.container ul li:first-child{
+    color: hsl(178, 100%, 50%);
+}
+.container ul li {
+    display: flex;
+    align-items: center;
+    
+}
+.container ul li img{
+    margin-right: 0.5rem;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1.25rem 0;
+}
+.avatar img{
+    width: 4rem;
+    border: 2px solid  hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    
+}
+.avatar span{
+    color:hsl(0, 0%, 100%) ;
+    font-weight: 400;
+}
+.avatar span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+@media(min-width:500px){
+    .container{
+        width: 450px;
+        margin: 0 auto 1rem;
+      
+
+    }
+}
